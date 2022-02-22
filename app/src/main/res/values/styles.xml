@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextStyle -->
+    <style name="TextSubtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+    <style name="TextAppearance.MaterialComponents.Subtitle1.Black01">
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+    <!-- Subtitle1(타고 들어가서 확인해보기)의 크기가 16sp 이고  현재 디자인 요구사항 중에 16sp 가 있었다고 가정해서 subtitle1을 사용 -->
+    <!-- 두번 째 방식으로도 parent 설정이 가능!! -->
+
+    <style name="TextHeadline32" >
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextHeadline32.White" >
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextHeadline32.White.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeadline5.Black02" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/shoppi_black_02</item>
+    </style>
+
+    <style name="TextHeadline5.Black02.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMedium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextMedium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMedium.Purple">
+        <item name="android:textColor">@color/shoppi_purple</item>
+    </style>
+
+    <style name="TextMedium.Purple.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle1.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle1.White">
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextSubtitle1.White.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextSubtitle2.Black02" >
+        <item name="android:textColor">@color/shoppi_black_02</item>
+    </style>
+
+    <style name="TextSubtitle2.Black02.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle2.Purple" >
+        <item name="android:textColor">@color/shoppi_purple</item>
+    </style>
+
+    <style name="TextSubtitle2.Purple.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle2.Grey05" >
+        <item name="android:textColor">@color/shoppi_grey_05</item>
+    </style>
+
+    <style name="TextSubtitle3">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+    <!-- material design에 존재 하지 않는 크기라 직접 크기 지정!1 -->
+
+    <style name="TextSubtitle3.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitle3.Grey03">
+        <item name="android:textColor">@color/shoppi_grey_03</item>
+    </style>
+
+    <style name="TextCaption1" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextCaption1.White" >
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextCaption1.Grey01" >
+        <item name="android:textColor">@color/shoppi_grey_01</item>
+    </style>
+
+    <style name="TextCaption1.Grey03" >
+        <item name="android:textColor">@color/shoppi_grey_03</item>
+    </style>
+
+    <style name="TextCaption1.Grey05" >
+        <item name="android:textColor">@color/shoppi_grey_05</item>
+    </style>
+
+    <style name="TextCaption2" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextCaption2.White" >
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextCaption2.White.Bold" >
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextCaption2.Grey04" >
+        <item name="android:textColor">@color/shoppi_grey_04</item>
+    </style>
+
+    <!-- TextStyle -->
+
+</resources>
