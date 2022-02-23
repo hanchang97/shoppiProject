@@ -22,7 +22,6 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
-
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -41,7 +40,7 @@
                 android:layout_marginEnd="16dp"
                 android:contentDescription="@string/description_product_thumbnail"
                 android:src="@drawable/img_pdp_top_01"
-                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintDimensionRatio="w,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

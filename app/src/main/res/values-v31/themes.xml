@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기존 values(30이하) 의 themes 에 있는 스타일 이름과 동일해야 함 -->
+    <style name="Theme.Shoppiandroid.Splash">
+        <item name="android:windowSplashScreenBackground">@color/shoppi_white</item>
+    </style>
+</resources>
