@@ -23,10 +23,10 @@ class HomeFragment : Fragment() {
         val button = view.findViewById<Button>(R.id.btn_enter_product_detail)
         button.setOnClickListener {
             val transaction = parentFragmentManager.beginTransaction()
-            //transaction.add(R.id.container_main, ProductDetailFragment()) // -> 질문  화면이 겹쳐보임!!
 
-            //transaction.add(R.id.frameLayout, ProductDetailFragment())
-            transaction.replace(R.id.container_main, ProductDetailFragment())
+            transaction.add(R.id.container_main, ProductDetailFragment()) // -> 질문  화면이 겹쳐보임!!
+            //transaction.replace(R.id.container_main, ProductDetailFragment())
+
             transaction.commit()
         }
     }
